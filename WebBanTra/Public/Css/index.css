@@ -50,9 +50,8 @@
     position: absolute;
     top: 10%;
     right: 10%;
-    z-index: 9;
-    width: 60px;
-    height: 60px;
+    width: 200px;
+    height: 100px;
 }
 
 .bg-sen {
@@ -67,9 +66,9 @@
 .introduce {
     padding-top: 200px;
     padding-bottom: 240px;
-    background-image: url(../Assets/Pictures/trang-chu/gioithieu.png);
+    background-image: url(../Assets/Pictures/trang-chu/background.jpg);
     background-position: center bottom;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -83,12 +82,12 @@
     margin-top: 20px;
 }
 
-.artist {
-    background-image: url(../Assets/Pictures/trang-chu/bannernghenhan.png);
+/*.artist {
+    background-image: url(../Assets/Pictures/trang-chu/backBanner.png);
     background-position: top;
     background-size: cover;
     padding-bottom: 40px;
-}
+}*/
 
 .artist-item {
     margin-top: 60px;
@@ -106,14 +105,14 @@
     font-size: 14px;
 }
 
-.buy-now {
+/*.buy-now {
     padding-top: 80px;
     padding-bottom: 200px;
     background-image: url(../Assets/Pictures/trang-chu/bannermuangay.png);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-}
+}*/
 
 .buy-now input {
     width: 80%;
