@@ -112,17 +112,9 @@
                         <h4>Thương Hiệu</h4>
                         <form action="" class="form-cate-product">
                             <div>
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Trà Tân Cương Xanh</label>
+                               <p>Urban Việt</p>
                             </div>
-                            <div>
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Trà Sen Tây Hồ</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="" name="" value="">
-                                <label for="">Trà Lộc Tân</label>
-                            </div>
+                           
                         </form>
                     </div>
                 </div>
@@ -138,8 +130,7 @@
                                 <li><a href="@Url.Action("ProductsByCategory", "Home")">Thứ tự mặc định</a></li>
                                 <li><a href="@Url.Action("ProductsByCategory", "Home", new {slug = @ViewBag.slug, sortOrder = "asc", typeSort = "price" })">Giá thấp đến cao</a></li>
                                 <li><a href="@Url.Action("ProductsByCategory", "Home", new {slug = @ViewBag.slug, sortOrder = "desc", typeSort = "price" })">Giá cao đến thấp</a></li>
-                                <li><a href="">Xếp theo đánh giá</a></li>
-                                <li><a href="">Xếp theo phổ biến</a></li>
+                               
                             </ul>
                         </div>
                     </div>
@@ -164,7 +155,7 @@
                                     <img src="~/Public/Admin/Pictures/products/@row.Image" alt="" class="w-100" style="height: 200px">
                                     <h5><a href="@Url.Action("ProductDetail", "Home", new {@row.Slug})">@row.Name</a></h5>
                                     <div class="d-flex justify-content-center">
-                                        <p class="product-price">@String.Format("{0:0,0}", row.Price)<small> VND</small><span>/100gr</span></p>
+                                        <p class="product-price">@String.Format("{0:0,0}", row.Price)<small> VND</small><span></span></p>
                                     </div>
                                 </div>
                             </div>
@@ -182,15 +173,15 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-5 col-sm-6">
+                <div class="col-md-5 col-sm-5">
                     <ul>
-                        <li><a href="@Url.Action("Index", "Home")"><img src="~/Public/Assets/Pictures/trang-chu/logophongtra.png" alt=""></a></li>
+                        <li><a href="@Url.Action("Index", "Home")"><img src="~/Public/Assets/Pictures/trang-chu/logo1.png" alt=""></a></li>
                         <li><a href="#">7999-999-999</a></li>
                         <li><a href="#">trasenbachdiep@gmail.com</a></li>
                         <li><a href="#">số 12, Quảng An, Hồ Tây, Hà Nội</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-4">
                     <ul>
                         <li><h4>VỀ CHÚNG TÔI</h4></li>
                         <li><a href="@Url.Action("Introduction", "Home")">Giới thiệu</a></li>
@@ -198,9 +189,9 @@
                         <li><a href="@Url.Action("News", "Home")">Tin tức</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-3">
                     <ul>
-                        <li><h4>LIÊN HỆ</h4></li>
+                        <li><a href="./index.html"><h4>LIÊN HỆ</h4></a></li>
                         <li>
                             <a href="#"><i class="fa-brands fa-youtube"></i></a>
                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -208,7 +199,7 @@
                         </li>
                         <li>
                             Copyright © 2010-2020 <br />
-                            Tra Sen Bach Diep. All right reserved.
+                            Urban Viet. All right reserved.
                         </li>
                     </ul>
                 </div>
