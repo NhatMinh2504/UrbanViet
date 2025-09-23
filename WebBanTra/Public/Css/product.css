@@ -63,6 +63,6 @@ select {
 }
 
 .new-product p {
-    background-color: rgb(170, 188, 68);
+    background-color:aqua;
     padding: 2px 16px;
 }
